@@ -36,7 +36,7 @@
 3. Under bucket settings, select Block Public Access, edit and deselect the block all public access option.
 4. Save your changes.
 
-## ## Making objects public(if you retained the option to block all public access during bucket creation)
+## Making objects public(if you retained the option to block all public access during bucket creation)
 1. In the overview page of your bucket, select a file you uploaded.
 2. Select object actions and select Make public using ACL.
 3. Choose make public at the bottom of the page.
