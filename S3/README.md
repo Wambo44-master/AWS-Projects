@@ -1,3 +1,16 @@
+<details>
+<summary>📂 <b>Click here to see the M-Pesa 10-Year Case Study Solution</b></summary>
+
+### The Business Challenge
+A company needs to store 10 years of M-Pesa transactions...
+
+### My Solution
+* **Multi-Region:** Enabled Cross-Region Replication (CRR).
+* **Cost Saving:** Configured Lifecycle Rules to move data to Glacier Deep Archive after 1 year.
+* **Random Access:** Used S3 Intelligent-Tiering to handle unpredictable data retrieval.
+
+</details>
+
 ## Create an S3 Bucket and store objects
 
 ## Objectives
@@ -62,4 +75,5 @@
 This updates the permissions for your bucket
 
 
-## Congratulations!!
+# 2. S3 Lifecycle policies
+Lifecycle policies automatically move data stored in S3 into different storage tiers.
