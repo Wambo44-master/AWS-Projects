@@ -1,4 +1,4 @@
-# Create an S3 Bucket and store objects
+## Create an S3 Bucket and store objects
 
 ## Objectives
 1. Create an S3 Bucket
@@ -7,7 +7,7 @@
 4. Create a bucket policy
 
 
-## Define best practices to secure S3 buckets:
+### Define best practices to secure S3 buckets:
 1. Define explicit permissions for bucket access.
 2. Ensure public access to objects and bu ckets is blocked unless explicitly permitted.
 3. Grant users access based on least privilege.
