@@ -6,7 +6,7 @@ A company wants to store M-Pesa transactions dating back 10 years. It's headquar
 
 ### My Solution
 * **Multi-Region:** Enabled Cross-Region Replication (CRR).
-* **Cost Saving:** Configured Lifecycle Rules to move data to Glacier Deep Archive after 1 year.
+* **Cost Saving:** Configured Lifecycle Rules to move data to Glacier Instant Retrieval after 1 year.
 * **Random Access:** Used S3 Intelligent-Tiering to handle unpredictable data retrieval.
 * **Latency:** Used Multi Region Access Point.
 * **Costs**
