@@ -144,7 +144,7 @@ The script automatically destroys all resources created by deploy.sh in the corr
 
 1. RDS deletion takes 10- 15 minutes and the script waits for completion.
 2. NAT Gateway Deletion takes about 2 minutes and the script includes a wait.
-3. If **no resources found**, the script exits gracefully if noting to clean up.
+3. If **no resources found**, the script exits gracefully if nothing to clean up.
 4. It is important that all your resources run in the same AWS region.
 
 
