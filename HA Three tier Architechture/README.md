@@ -1,4 +1,4 @@
-# 🚀 AWS HA Three-Tier Architecture - CLI Automated Deployment
+# 🚀 AWS Highly Available Three-Tier Architecture - CLI Automated Deployment
 
 ## 📋 Project Overview
 
@@ -124,5 +124,27 @@ Expected Responses:
 
 ## Clean up
 
-Run clean.sh
+Run clean.sh after testing to avoid incurring costs.
+The script automatically destroys all resources created by deploy.sh in the correct dependency order:   
+
+1. Terminates EC2 instances.
+2. Deletes Application Load Balancer and Target group.
+3. Deletes RDS Database.
+4. Deletes NAT gateways.
+5. Releases Elastic IPs.
+6. Deletes Route tables.
+7. Deletes security groups.
+8. Deletes subnets.
+9. Detaches and deletes Internet Gateway.
+10. Deletes VPC.
+11. Deltes DB Subnet Group.
+
+
+### ⚠ Important
+
+1. RDS deletion takes 10- 15 minutes and the script waits for completion.
+2. NAT Gateway Deletion takes about 2 minutes and the script includes a wait.
+3. If **no resources found**, the script exits gracefully if noting to clean up.
+4. It is important that all your resources run in the same AWS region.
+
 
