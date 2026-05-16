@@ -124,7 +124,7 @@ Expected Responses:
 
 ## Clean up
 
-Run clean.sh after testing to avoid incurring costs.
+Run clean.sh after testing to avoid incurring costs for resources you are no longer using.
 The script automatically destroys all resources created by deploy.sh in the correct dependency order:   
 
 1. Terminates EC2 instances.
