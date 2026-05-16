@@ -89,8 +89,8 @@ curl http://<ALB-DNS>/db-status
 
 Expected Responses:
 
-**/health - {"status": "ok"} **
-**/ db-status - {"database": "connected"}
+- /health - {"status": "ok"} 
+- / db-status - {"database": "connected"}
 
 
 ## Failover Testing
