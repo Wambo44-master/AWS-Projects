@@ -110,4 +110,19 @@ Expected Responses:
 4. Permission denied - Run chmod +x deploy.sh
 
 
-## Cost Considerations
+
+## 💰 Cost Breakdown (Free Tier)
+
+| Service | Free Tier Limit | Notes |
+|---------|-----------------|-------|
+| EC2 t2.micro | 750 hours/month | 4 instances = ~750 hours/month (within limit if run together) |
+| RDS db.t2.micro | 750 hours/month | Within limit |
+| NAT Gateway (2)| Not free | ~$0.045/hour — delete after testing |
+| Data transfer | First 100GB free | Within limit |
+|ALB | Not free | ~$0.0225/hr 
+
+
+## Clean up
+
+Run clean.sh
+
