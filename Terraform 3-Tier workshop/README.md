@@ -28,7 +28,7 @@ The workshop covers a standard 3-tier architecture:
 ## 📁 Project Structure (Studied)
 The workshop codebase follows best practices:
 
-
+```
 terraform-3tier-workshop/
 │
 ├── books/                          # Supplementary reading and reference material
@@ -64,7 +64,7 @@ terraform-3tier-workshop/
 ├── .gitignore
 └── Readme.md
 
-
+```
 
 ## 🚀 What I Plan to Do Next
 - Deploy this architecture
