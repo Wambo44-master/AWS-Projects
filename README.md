@@ -13,7 +13,7 @@ Welcome to my AWS projects portfolio. This repository documents my hands-on clou
 | [**High Availability 3-Tier Architecture**](./HA%20Three%20tier%20Architechture/) | **Infrastructure / High Availability** | AWS VPC, EC2, ALB, RDS (Multi-AZ), Auto Scaling, NAT Gateway | ✅ Completed |
 | [**3-Tier Web Application**](./Three-Tier%20Web%20Architecture%20on%20AWS/) | **Infrastructure / Web Hosting** | AWS VPC, EC2, RDS, Security Groups, Nginx Reverse Proxy | ✅ Completed |
 | [**Cloud Economics**](./Cloud%20Economics/) | **Research / Cost Optimization** | AWS Pricing, Cost Analysis, Regional Pricing Comparison | ✅ Completed |
-| [**Amazon S3 Projects**](./s3-projects/) | **Storage / Hosting** | S3 Static Website, Bucket Policies, Versioning | ✅ Completed |
+| [**Amazon S3 Projects**](./S3/) | **Storage / Hosting** | S3 Static Website, Bucket Policies, Versioning | ✅ Completed |
 
 ## 🛠️ Technologies & Skills Demonstrated
 
