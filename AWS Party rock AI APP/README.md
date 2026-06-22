@@ -79,7 +79,7 @@ https://partyrock.aws/u/Nicole998/-M3bOMTgU/StudyFlow%25253A-Learn-Smarter-Faste
 
 - [Live PartyRock App](https://partyrock.aws/u/Nicole998/-M3bOMTgU/StudyFlow%253A-Learn-Smarter-Faster)
 - [AWS AI and ML Challenge](https://aws.amazon.com/training/aws-ai-ml-scholar/)
-- [My GitHub Portfolio] 
+
 
 ## 📈 Future Improvements
 
