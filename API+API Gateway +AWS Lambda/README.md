@@ -5,7 +5,7 @@
 **Project Link:** [View Project](http://nextwork.ai/projects/aws-compute-api)
 
 **Author:** Nicole Wainaina  
-**Email:** zolianzozo60@gmail.com
+
 
 ---
 
