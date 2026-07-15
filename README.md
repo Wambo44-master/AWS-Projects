@@ -1,106 +1,97 @@
+<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# AWS Projects Portfolio
+# APIs with Lambda + API Gateway
 
-## 👋 About This Repository
+**Project Link:** [View Project](http://nextwork.ai/projects/aws-compute-api)
 
-Welcome to my AWS projects portfolio. This repository documents my hands-on cloud journey from foundational infrastructure to AI-powered applications. I am an AWS re/Start graduate and AWS Certified Cloud Practitioner, and these projects represent my commitment to building practical, real-world cloud skills.
-
-## 🎯 What You'll Find Here
-
-| Project | Focus Area | Key Technologies | Status |
-|---------|------------|------------------|--------|
-| [**StudyFlow: Learn Smarter Faster**](./StudyFlow%20%3A%20Built%20with%20AWS%20PartyRock/README.md/) | **AI/Generative AI** | AWS PartyRock, Amazon Bedrock, Prompt Engineering | ✅ Completed |
-| [**High Availability 3-Tier Architecture**](./HA%20Three%20tier%20Architechture/) | **Infrastructure / High Availability** | AWS VPC, EC2, ALB, RDS (Multi-AZ), Auto Scaling, NAT Gateway | ✅ Completed |
-| [**3-Tier Web Application**](./Three-Tier%20Web%20Architecture%20on%20AWS/) | **Infrastructure / Web Hosting** | AWS VPC, EC2, RDS, Security Groups, Nginx Reverse Proxy | ✅ Completed |
-| [**Cloud Economics**](./Cloud%20Economics/) | **Research / Cost Optimization** | AWS Pricing, Cost Analysis, Regional Pricing Comparison | ✅ Completed |
-| [**Amazon S3 Projects**](./S3/) | **Storage / Hosting** | S3 Static Website, Bucket Policies, Versioning | ✅ Completed |
-| [**Terraform 3-Tier Workshop**](./terraform-3tier-workshop/) | **Infrastructure as Code / Study** | Terraform, AWS VPC, EC2, RDS | ✅ Studied |
-
-## 🛠️ Technologies & Skills Demonstrated
-
-| Category | Services & Tools |
-|----------|------------------|
-| **Compute & Networking** | EC2, VPC, Subnets, Route Tables, NAT Gateway, Internet Gateway, Security Groups, Application Load Balancer (ALB), Auto Scaling Groups |
-| **Storage & Databases** | Amazon S3, RDS (MySQL), EBS |
-| **Security & Identity** | IAM, Least Privilege, Security Groups, NACLs |
-| **AI & Machine Learning** | AWS PartyRock, Amazon Bedrock, Generative AI, Prompt Engineering |
-| **Infrastructure as Code** | Terraform (in progress), Manual Deployment |
-| **Monitoring & Cost** | CloudWatch, AWS Pricing Calculator |
-| **Operating Systems** | Linux (Ubuntu, Amazon Linux 2), Windows Server (basic) |
-| **Scripting & Automation** | Bash, Python (boto3), User Data Scripts |
-| **Version Control** | Git, GitHub |
-
-## 🏗️ Project Highlights
-
-### 1. StudyFlow: Learn Smarter Faster (AI App)
-Built a functional Generative AI application using AWS PartyRock as part of the AWS AI and ML Challenge. The app helps students optimize their study sessions by generating personalized study plans, recommending learning techniques, and creating self-testing questions.
-
-- **Live App:** [PartyRock Link](https://partyrock.aws/u/Nicole998/-M3bOMTgU/StudyFlow%253A-Learn-Smarter-Faster)
-- **Tech:** AWS PartyRock, Amazon Bedrock, Prompt Engineering
-
-### 2. High Availability 3-Tier Architecture
-Deployed a production-ready, highly available three-tier architecture across multiple Availability Zones. Includes web, application, and database tiers with automated failover.
-
-- **Key Features:** Multi-AZ deployment, Application Load Balancer, Auto Scaling, RDS Multi-AZ, NAT Gateways
-- **Tech:** EC2, ALB, RDS, VPC, Security Groups, Auto Scaling Groups
-
-### 3. 3-Tier Web Application (Manual Deployment)
-Manually deployed a complete three-tier web application (web server → app server → database) in a single Availability Zone. Documented step-by-step instructions for reproducibility.
-
-- **Key Features:** Public/private subnets, NAT Gateway, Security Groups, Bastion Host
-- **Tech:** EC2, RDS, VPC, Nginx, Python/Flask
-
-### 4. Cloud Economics Knowledge Base
-Researched and documented AWS regional pricing differences, cost optimization strategies, and billing fundamentals. Created a structured reference for understanding cloud costs.
-
-- **Key Features:** Cost analysis, regional pricing comparison, savings strategies
-- **Tech:** AWS Pricing Calculator, Documentation
-
-### 5. Amazon S3 Projects
-Built multiple S3 projects including static website hosting, bucket policy implementation, and versioning.
-
-- **Key Features:** Static website hosting, bucket policies, public access management
-- **Tech:** S3, IAM
-
-## 📊 Skills Matrix
-
-| Skill Area | Proficiency | Projects Demonstrated |
-|------------|-------------|----------------------|
-| AWS Core Services | Intermediate | All projects |
-| Linux Administration | Intermediate | 3-Tier Web App, HA Architecture |
-| Networking (VPC, Subnets, Routing) | Intermediate | 3-Tier Web App, HA Architecture |
-| Security (IAM, Security Groups) | Intermediate | All projects |
-| Python Scripting | Intermediate | 3-Tier Web App (User Data) |
-| Generative AI / Prompt Engineering | Beginner | StudyFlow AI App |
-| Infrastructure as Code (Terraform) | Learning | Planned (converting HA architecture to Terraform) |
-
-## 🚀 What I'm Learning Next
-
-- **Terraform** – Automating infrastructure deployment
-- **Kubernetes (KCNA)** – Container orchestration for cloud-native applications
-- **Data Engineering** – SQL, ETL pipelines, data warehousing
-- **Advanced AWS Services** – Lambda, API Gateway, ECS/EKS
-
-## 📈 Certifications
-
-| Certification | Issuer | Date |
-|---------------|--------|------|
-| AWS Certified Cloud Practitioner | Amazon Web Services | December 2025 |
-| AWS re/Start Graduate | Amazon Web Services | December 2025 |
-| AWS AI and ML Challenge | AWS + Udacity | Completed |
-| KCNA (In Progress) | Linux Foundation | In progress |
-
-## 🔗 Connect with Me
-
-- **GitHub:** [github.com/Wambo44-master](https://github.com/Wambo44-master)
-- **LinkedIn:** [linkedin.com/in/nicole-wainaina-life6641](https://linkedin.com/in/nicole-wainaina-life6641)
-- **Credly:** [credly.com/users/nicole-wainaina](https://www.credly.com/users/nicole-wainaina)
-
-
-## 📅 Last Updated
-
-June 2026
+**Author:** Nicole Wainaina  
+**Email:** zolianzozo60@gmail.com
 
 ---
 
-*This repository is a living document of my cloud engineering journey. More projects and updates are on the way.*
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_c9d0e1f2)
+
+---
+
+## Introducing Today's Project!
+
+In this project, I will demonstrate building the backend of a web app. Here, I will write and run code that translates user actions to app functionality. I will be using APIs, AWS Lambda and an API gateway. 
+
+Application Programming Interface(APIs) are a set of rules that allow for 2 apps to talk to each other and include GET, POST, PUT etc.
+
+An API gateway is an API traffic controller. It is responsible for routing requests and responses and authorizes requests.
+
+AWS Lambda is a Function as a Service provided by AWS.  It  offers serverless computing whereby developers can run code and are not responsible for managing servers and underlying Operation Systems. AWS Lambda is event driven and it is a pay-as-you-go service.
+
+
+### Tools and concepts
+
+Services I used were APIS, API gateway and AWS Lambda. Key concepts I learnt include Lambda functionsm, creation of an API, API methods, resources and how to create an API gateway. I also learned about API documentation which is used to clearly explain the function of the API and how users can interact with it. I also learned how to publish documentation using Swagger and in JSON format with an AWS API extension.
+
+### Project reflection
+
+This project took me approximately about one hour. The most challenging part was in creation of API since I had not previously done it. It was most rewarding to review my publised documentation and understand the methods, parameters and functionality of the API I created.
+
+I chose to do this project today because it is the backend of an application and I wanted to understand how Lambda functions and an API gateway work together.
+
+---
+
+## Lambda functions
+
+AWS Lambda is.a serverless compute service that allows developers to run code without worrying about management of underlying servers and infrastructure. I'm using Lambda in this project to create a function that will retrieve data from a database and return it to the user.
+
+The code I added to my function will create a function retrieve data from a DynamoDB table. It looks for specific user data based on 'userId' and return the data. If an error occurs, it will return an error message.
+
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_a1b2c3d5)
+
+---
+
+## API Gateway
+
+APIs are Application Programming Interfaces that are a set of rules for different software systems to communicate.There are different types of APIs, like RESTful APIs and Non-RESTful APIs. My API is RESTful which means it used to transfer data using HTTP. It involves GET, PUT, POST & DELETE requests.
+
+Amazon API Gateway is a front door to the backend of an application. It receives requests and forwards tem to the lamda function for processing. The lambda function's result is returned to the user through an API gateway .I'm using API Gateway in this project as a traffic controller for the API. It is not a best practice to directly expose APIs and an API gateway increases security by applying authorization and authentication of APIs, routing, WAF, traffic management and monitoring capabilities for increased application functionality.
+
+When a user makes a request, the API gateway receives the request and forwards it to the Lambda function(backend) for processing. Once it is processed, the result is sent back to the user through the gateway.
+
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_m3n4o5p6)
+
+---
+
+## API Resources and Methods
+
+An API is made up of resources, which are indivudual endpoints of an API that handle different parts of its functionality.
+
+Each resource consists of methods, which are used to define what you can do with a resource.
+
+I created a GET method which retrieves data.
+
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_c9d0e1f2)
+
+---
+
+## API Deployment
+
+When you deploy an API, you deploy it to a specific stage. A stage is a snapshot of an API at a sepcific point in time. I deployed to the prod stage
+
+To visit my API, I clicked on the invoke URL which is the URL where my API can be used. The API displayed an error because the API is meant to invoke a Lambda function that retrieves data froma  dynamodb table which has not yet been set up hence the error.
+
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_3ethryj2)
+
+---
+
+## API Documentation
+
+For my project's extension, I am writing API documentation because API documentation is a detailed description of an API's functionality including its endpoints, methods, parameters and responses. You can do this in JSON and it is crucial in understanding how to use APIs effectively.
+
+Once I prepared my documentation, I can publish it to the prod stage to ensure the documentation is consistent with the API version deployed to that stage.  Publishing my documentation lets me  export my work in a special file type (either Swagger or OpenAPI). Then, I can use external tools like Swagger UI or ReDoc can then use my OpenAPI documentation to generate beautiful, interactive web pages about my API.
+
+This lets other developers explore your API directly through their browsers.
+
+My published and downloaded documentation showed me my customised API documentation and API gateway automatically generated documentation whcih included metadata like my API's version and title, resources (/users), and methods (like GET) I can perform on these endpoints.
+
+![Image](http://nextwork.ai/restful_olive_calm_jellyfish/uploads/aws-compute-api_z9a0b1c2)
+
+---
+
+---
