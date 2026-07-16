@@ -5,7 +5,7 @@
 **Project Link:** [View Project](http://nextwork.ai/projects/aws-compute-eks1)
 
 **Author:** Nicole Wainaina  
-**Email:** zolianzozo60@gmail.com
+
 
 ---
 
@@ -20,10 +20,7 @@
 In this project, I will launch a Kubernetes cluster using Amazon EKS.
 
 ### What is Amazon EKS?
-
-### One thing I didn't expect
-
-### This project took me...
+Amazon EKS is an AWS service that makes it easier to interact with Kubernetes.
 
 ---
 
