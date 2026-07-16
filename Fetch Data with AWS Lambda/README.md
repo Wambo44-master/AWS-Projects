@@ -5,7 +5,6 @@
 **Project Link:** [View Project](http://nextwork.ai/projects/aws-compute-lambda)
 
 **Author:** Nicole Wainaina  
-**Email:** zolianzozo60@gmail.com
 
 ---
 
